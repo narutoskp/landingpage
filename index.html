@@ -9,7 +9,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-default">
+<!-- 	<nav class="navbar navbar-default">
+	<div class="navbar-inner">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-bananatesting-navbar-collapse-1" aria-expanded="false">
@@ -29,66 +30,84 @@
 	      </ul>
 	    </div>
 	  </div>
-	</nav>
+	</nav> -->
 
 	<!-- section1 -->
 	<div id="section1">
 		<div class="container-fluid">
 			<div class="row">
 				<center>
-					<p>Lorem ipsum dolor sit amet</p>
-					<p>Maecenas placerat tempus tempor.</p>
-					<button>Get started for free</button>
+					<p class="text-sec1-title">Lorem ipsum dolor sit amet</p>
+					<p class="text-sec1-subtitle">Maecenas placerat tempus tempor.</p>
+					<button type="button" class="btn btn-get-started">Get started for free</button>
 				</center>
 			</div>
 		</div>
 	</div>
 
+	<div class="bg-sec2-3">
 	<!-- sction2 -->
-	<div id="section2">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<p>Welcome To Banana Testing</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae leo pretium, euismod felis a,
-						posuere lectus. Donec tincidunt risus enim, id ullamcorper magna faucibus eget.</p>
+		<div id="section2">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<p class="text-sec-title">Welcome To Banana Testing</p>
+						<center><div class="hr-title"></div></center>
+						<p class="text-sec2-detail"></p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<!-- pricing -->
-	<div id="pricing">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-4 col-md-offset-4">
-					<p>Pricing</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+		<!-- pricing -->
+		<div id="pricing">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<p class="text-sec-title">Pricing</p>
+						<center><div class="hr-title"></div></center>
+						<p class="text-pricing-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-
+	</div><!-- bg-sec2-3 -->
+	
 	<!-- contact -->
 	<div id="contact">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6 contact-left">
-					<p>Get In Touch</p>
-					<p>34/12 Moo 5 Canal Road, Suthep 
+					<p class="text-contact-title">Get In Touch</p>
+					<center><div class="hr-title"></div></center>
+					<p class="text-contact-detail">34/12 Moo 5 Canal Road, Suthep <br>
 						Chiang Mai, Thailand 50200</p>
+					<div class="btn-social">
+						<button class="btn" type="button">Facebook</button>
+						<button class="btn btn-social-center" type="button">Twitter</button>
+						<button class="btn" type="button">Github</button>
+					</div>	
 				</div>
 				<div class="col-md-6 contact-right">
-					<p>Get Connected</p>
+					<p class="text-contact-title">Get Connected</p>
+					<center><div class="hr-title"></div>
+						<div class="row">
+							<input type="text" name="your-email" placeholder="Enter your e-mail">
+						</div>
+						<div class="row">
+							<button class="btn btn-contact-subsribe" type="button">Subsribe</button>
+						</div>
+					</center>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<!-- footer -->
 	<div class="footer">
 		<div class="container-fluid">
 			<div class="row">
-				<p>© 2016 Banana Coding. All Rights Reserved.</p>
+				<p class="text-footer">© 2016 <a href="https://bananacoding.com/en">Banana Coding.</a> All Rights Reserved.</p>
 			</div>
 		</div>
 	</div>
