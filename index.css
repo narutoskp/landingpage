@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700|Quattrocento:400,700');
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Quattrocento', serif;*/
+#section1{
+	background-image: url("bg-banantesting.jpg");
+	height: auto;
+}
+#section2{
+	background-color: gray;
+}
+#pricing{
+	background-color: #E6E6E6;
+}
+.contact-left{
+	background-color: #B3B3B3;
+}
+.contact-right{
+	background-color: #808080;
+}
+.footer{
+	background-color: #CCCCCC;
+}
