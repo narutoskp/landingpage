@@ -1,0 +1,26 @@
+.nav-pills>li[data-slide-to="0"].active a>p { 
+	color: #036781;
+}
+.nav-pills>li[data-slide-to="1"].active a>p { 
+	color: #036781;
+}
+.nav-pills>li[data-slide-to="2"].active a>p { 
+	color: #036781;
+}
+
+.slide-screenshot{
+	margin-top: 150px;
+}
+.slide-screenshot>img {
+    position: absolute;
+    z-index: 1;
+    margin-top: -5%;
+    padding-top: inherit;
+}
+
+.carousel-inner {
+	margin-left: 14%;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background: transparent;
+}

@@ -10,11 +10,17 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+.container-fluid-fixed{
+	width: 1170px;
+	margin-right: auto;
+    margin-left: auto;
+}
+
 #section1{
 	background-image: url("asset/bg-banantesting.png");
 	background-repeat:no-repeat;
 	background-position:center;
-	background-size: 150% 150%;
 	background-attachment: fixed;
 
 	height: auto;
@@ -88,7 +94,6 @@ body{
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	color: #1A1A1A;
-	margin-top: 40px
 }
 
 .detail-feature{
@@ -354,6 +359,30 @@ body{
     z-index: 2;
 }
 
-.slide-screenshot>img{
-	padding-top: 100px;
+.nav-pills>li[data-slide-to="0"].active a>p { 
+	color: #036781;
+}
+.nav-pills>li[data-slide-to="1"].active a>p { 
+	color: #036781;
+}
+.nav-pills>li[data-slide-to="2"].active a>p { 
+	color: #036781;
+}
+
+.slide-screenshot{
+	margin-top: 150px;
+}
+.slide-screenshot>img {
+    position: absolute;
+    z-index: 1;
+    margin-top: -5%;
+    padding-top: inherit;
+}
+
+.carousel-inner {
+	margin-left: 15%;
+	width: 430px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background: transparent;
 }
