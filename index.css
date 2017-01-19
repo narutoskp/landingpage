@@ -377,6 +377,27 @@ body{
 	color: #66CCCC;
 }
 
+.icon-feature{
+	margin-top: 56px;
+}
+
+.fa-back{
+	font-size: 80px;
+	color: #1A1A1A;
+	position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.fa-front{
+	font-size: 33px;
+    position: relative;
+    margin-left: 29%;
+    margin-top: 35%;
+    color: white;
+}
+
 .slide-screenshot{
 	margin-top: 150px;
 }
