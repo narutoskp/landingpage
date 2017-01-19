@@ -73,6 +73,7 @@ body{
 	font-size: 30px;
 	color: #1A1A1A;
 	margin-top: 200px;
+	letter-spacing: 3px;
 }
 
 .text-sec1-subtitle{
@@ -95,6 +96,7 @@ body{
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	color: #1A1A1A;
+	margin-top: 30px;
 }
 
 .detail-feature{
@@ -218,9 +220,9 @@ body{
 }
 
 .btn-social>button:hover{
-	border-bottom: 2px solid #72B0C7;
+	border-bottom: 2px solid #66CCCC;
 	border-radius: inherit;
-	color: #72B0C7;
+	color: #66CCCC;
 }
 
 .btn-contact-subsribe{
@@ -285,6 +287,9 @@ body{
 	color: #FFFFFF;
 }
 
+.nav-pills>li>a:hover{
+	text-decoration: none;
+}
 /*hexagon*/
 
 .hexagon {
@@ -388,4 +393,48 @@ body{
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
 	background: transparent;
+}
+
+.navbar-inverse{
+	background: none;
+	border:none;
+	height: 60px;
+}
+
+.navbar-inverse .navbar-brand{
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	color: #1A1A1A;
+}
+.navbar-inverse .navbar-brand:hover{
+	color: #1A1A1A;
+}
+
+.navbar-brand{
+	padding: 5px 5px;
+}
+.navbar-inverse .navbar-nav>li>a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	border-bottom:2px solid #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>button{
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: transparent;
+	padding: 8px 15px 8px 15px;
+	border:2px solid #FFFFFF;
+	margin-top: 5px;
+}
+
+.navCarousel {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
