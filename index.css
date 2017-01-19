@@ -22,6 +22,7 @@ body{
 	background-repeat:no-repeat;
 	background-position:center;
 	background-attachment: fixed;
+	background-size: cover;
 
 	height: auto;
 	border-bottom-left-radius:1000px 200px;
