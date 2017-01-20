@@ -460,3 +460,89 @@ body{
     margin-bottom: 0;
     list-style: none;
 }
+
+.col-xs-1{
+		padding-top: 70px;
+	}
+/*Ipad*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  	.container-fluid-fixed{
+  		padding-left: 15px;
+  		padding-right: 15px;
+		width: auto;
+		margin-right: auto;
+	    margin-left: auto;
+	}
+}
+
+/*Iphone5/5s*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  	.container-fluid-fixed{
+  		padding-left: 15px;
+  		padding-right: 15px;
+		width: auto;
+		margin-right: auto;
+	    margin-left: auto;
+	}
+}
+
+/*Iphone 6/6+*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+  	.container-fluid-fixed{
+  		padding-left: 15px;
+  		padding-right: 15px;
+		width: auto;
+		margin-right: auto;
+	    margin-left: auto;
+	}
+	.slide-screenshot{
+		margin-top: inherit;
+	}
+
+	.slide-screenshot>img {
+	    position: absolute;
+	    z-index: 1;
+	    margin-top: 10%;
+	    margin-left: -4%;
+	    padding-top: inherit;
+	}
+	.carousel-inner{
+		position: absolute;
+	    width: 270px;
+	    margin-left: 11%;
+	    margin-top: 16%;
+	}
+	.col-xs-1{
+		padding-top: 220px;
+	}
+	.fa-front{
+		font-size: 35px
+		margin-left:auto;
+		margin-top: 17px;
+	}
+	.fa-back{
+		font-size: 70px;
+
+	}
+	.icon-feature{
+		display: none;
+	}
+	.text-feature{
+		margin-top: 50px;
+		text-align: center;
+	}
+}
