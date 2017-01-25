@@ -6,6 +6,7 @@
 
 	<title>Banana Testing</title>
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
@@ -29,12 +30,12 @@
 		                    </button>
 		                    <a class="navbar-brand" href="#">
 		                    <p><img src="asset/logo.png" width="54" height="54">
-		                    BANANA <span style="color:#036781;">TESTING</span></p></a>
+		                    BANANA <span id="text2">TESTING</span></p></a>
 		                </div>
 		                <div class="collapse navbar-collapse" id="myNavbar">
 		                    <ul class="nav navbar-nav navbar-right">
-		                        <li><a href="#">Feature</a></li>
-		                        <li><a href="#">Pricing</a></li>
+		                        <li><a href="#feature">Feature</a></li>
+		                        <li><a href="#pricing">Pricing</a></li>
 		                        <li><button>Log in</button></li>
 		                    </ul>
 		                </div>
@@ -44,8 +45,8 @@
 			<div class="container-fluid-fixed">
 				<div class="row">
 					<center>
-						<p class="text-sec1-title">Lorem ipsum dolor sit amet</p>
-						<p class="text-sec1-subtitle">Maecenas placerat tempus tempor.</p>
+						<p class="text-sec1-title animated bounce">Better by Testing</p>
+						<p class="text-sec1-subtitle animated bounceIn">Cloud based testcase management software</p>
 						<button type="button" class="btn btn-get-started">Get started for free</button>
 					</center>
 				</div>
@@ -59,10 +60,10 @@
 		<div id="section2">
 			<div class="container-fluid-fixed">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-8 col-md-offset-2 head-section">
 						<p class="text-sec-title">Welcome To Banana Testing</p>
 						<center><div class="hr-title"></div></center>
-						<p class="text-pricing-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae leo pretium, euismod felis a,posuere lectus. Donec tincidunt risus enim, id ullamcorper magna faucibus eget.</p>
+						<p class="text-pricing-subtitle">Simple test case creation and keep track of quality and report</p>
 					</div>
 				</div>
 				<div class="row">
@@ -87,18 +88,15 @@
 									<ul class="navCarousel nav-pills">
 							            <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="">
 							            	<p class="title-feature">Create test case</p>
-											<p class="detail-feature">Lorem ipsum dolor sit amet, 
-											consectetur adipiscing elit.</p></a>
+											<p class="detail-feature">Use Markdown format to create the test case</p></a>
 							            </li>
 							            <li data-target="#myCarousel" data-slide-to="1"><a href="">
 								            <p class="title-feature">Run test case</p>
-											<p class="detail-feature">Lorem ipsum dolor sit amet, 
-											consectetur adipiscing elit.</p></a>
+											<p class="detail-feature">Run a test run with full screen mode,comment and capture screen</p></a>
 										</li>
-							            <li data-target="#myCarousel" data-slide-to="2" style="margin-bottom: 200px;"><a href="">
+							            <li data-target="#myCarousel" data-slide-to="2" id="bottom-report"><a href="">
 							            	<p class="title-feature">Report test case</p>
-											<p class="detail-feature">Lorem ipsum dolor sit amet, 
-											consectetur adipiscing elit.</p></a>
+											<p class="detail-feature">Simple and easy to understand</p></a>
 										</li>
 							        </ul>
 								</div>
@@ -131,15 +129,15 @@
 		<div id="pricing">
 			<div class="container-fluid-fixed">
 				<div class="row">
-					<div class="col-md-6 col-md-offset-3">
+					<div class="col-md-6 col-md-offset-3 head-section">
 						<p class="text-sec-title">Pricing</p>
 						<center><div class="hr-title"></div></center>
-						<p class="text-pricing-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						<p class="text-pricing-subtitle">You can getting started with afree plan, Upgrade and Download at any time</p>
 					</div>	
 				</div>
 				<div class="contant-pricing">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2" style="width: 714px; margin-left: 19%;">
+						<div class="col-md-8 col-md-offset-2">
 							<div class="col-md-4">
 								<div class="circle">
 									<p class="inner-cricle">$0</p>
@@ -152,10 +150,10 @@
 												<p>Per month</p>
 												<center><div class="hr-pricing"></div></center>
 
-												<p>Single client invitations</p>
+												<p>Single project</p>
 												<center><div class="hr-pricing"></div></center>
 
-												<p>Unlimited features</p>
+												<p>Single User</p>
 												<center><div class="hr-pricing"></div></center>
 
 												<button class="btn btn-select-pricing" type="button">SELECT</button>
@@ -165,22 +163,22 @@
 								</div>	
 							</div>
 							<div class="col-md-4">
-								<div class="circle" style="background-color: #1A1A1A;">
+								<div class="circle center">
 									<p class="inner-cricle">$108</p>
 								</div>
 								<div class="hexagon-center">
 									<div id="hexagon-contant">
 										<div class="2">
 											<p class="title-hex">Annual Plan</p>
-											<div class="detail-hex" style="color: #FFFFFF;">
+											<div class="detail-hex">
 												<p>Per year</p>
-												<center><div class="hr-pricing" style="border-bottom:2px solid #FFFFFF;"></div></center>
+												<center><div class="hr-pricing hr-pricing-center"></div></center>
 
-												<p>Unlimited client invitations</p>
-												<center><div class="hr-pricing" style="border-bottom:2px solid #FFFFFF;"></div></center>
+												<p>Unlimited project</p>
+												<center><div class="hr-pricing hr-pricing-center""></div></center>
 
-												<p>Unlimited features</p>
-												<center><div class="hr-pricing" style="border-bottom:2px solid #FFFFFF;"></div></center>
+												<p>10 team members</p>
+												<center><div class="hr-pricing hr-pricing-center"></div></center>
 
 												<button class="btn btn-select-pricing-center" type="button">SELECT</button>
 											</div>
@@ -200,10 +198,10 @@
 												<p>Per month</p>
 												<center><div class="hr-pricing"></div></center>
 
-												<p>Unlimited client invitations</p>
+												<p>Unlimited project</p>
 												<center><div class="hr-pricing"></div></center>
 
-												<p>Unlimited features</p>
+												<p>5 team members</p>
 												<center><div class="hr-pricing"></div></center>
 
 												<button class="btn btn-select-pricing" type="button">SELECT</button>
@@ -253,7 +251,7 @@
 	<div class="footer">
 		<div class="container-fluid">
 			<div class="row">
-				<p class="text-footer">Banana Testing make with&nbsp;&nbsp;<i class="fa fa-heart" aria-hidden="true" style="color: #FF3E9A;"></i>&nbsp;&nbsp;By <a href="https://bananacoding.com/en">Banana Coding.</a> | © 2017 All rights reserved.</p>
+				<p class="text-footer">Banana Testing make with&nbsp;&nbsp;<i class="fa fa-heart" aria-hidden="true"></i>&nbsp;&nbsp;By <a href="https://bananacoding.com/en">Banana Coding.</a> | © 2017 All rights reserved.</p>
 			</div>
 		</div>
 	</div>

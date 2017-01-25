@@ -24,3 +24,12 @@
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
 	background: transparent;
 }
+
+
+
+span#text2{
+	color: #036781;
+}
+#bottom-report{
+	margin-bottom: 200px;
+}

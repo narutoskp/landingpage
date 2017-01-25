@@ -28,6 +28,10 @@ body{
 	border-bottom-left-radius:1000px 200px;
 }
 
+.head-section {
+    margin-top: 200px;
+}
+
 .bg-sec1{
 	background-color: #FFFFFF;
 }
@@ -71,15 +75,15 @@ body{
 /*text*/
 .text-sec1-title{
 	font-family: 'Oswald', sans-serif;
-	font-size: 30px;
+	font-size: 54px;
 	color: #1A1A1A;
 	margin-top: 200px;
-	letter-spacing: 3px;
+	letter-spacing: 20px;
 }
 
 .text-sec1-subtitle{
 	font-family: 'Quattrocento', serif;
-	font-size: 16px;
+	font-size: 24px;
 	color: #1A1A1A;
 	margin-top: 50px;
 }
@@ -89,7 +93,6 @@ body{
 	font-size: 24px;
 	text-align: center;
 	color: #1A1A1A;
-	margin-top: 200px;
 	letter-spacing: 2px;
 }
 
@@ -461,9 +464,12 @@ body{
     list-style: none;
 }
 
-.col-xs-1{
-		padding-top: 70px;
-	}
+.navbar-inverse .navbar-nav>li>button:hover{
+	border:2px solid #72B0C7;
+	background-color: #72B0C7;
+	color: #FFFFFF;
+}
+
 /*Ipad*/
 @media only screen 
   and (min-device-width: 768px) 
@@ -545,4 +551,29 @@ body{
 		margin-top: 50px;
 		text-align: center;
 	}
+}
+
+span#text2{
+	color: #036781;
+}
+#bottom-report{
+	margin-bottom: 200px;
+}
+.col-md-8.col-md-offset-2{
+	width: 714px; 
+	margin-left: 19%;
+}
+div.center{
+	background-color: #1A1A1A;
+}
+
+.hr-pricing-center{
+	border-bottom:2px solid #FFFFFF;
+}
+
+i.fa.fa-heart{
+	color: #FF3E9A;
+}
+.col-xs-1{
+	padding-top: 70px;
 }
